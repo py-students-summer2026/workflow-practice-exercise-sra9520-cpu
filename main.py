@@ -1,3 +1,4 @@
+
 def foo(x, y):
     """
     Concatenates two words with a space between them.
@@ -21,3 +22,12 @@ def baz():
     Prints out the text, "Hello world!"
     """
     print("Hello world!")
+
+def main():
+   
+    print(foo("Hello", "world!"))
+    print(bar())
+    baz()
+
+
+main()
